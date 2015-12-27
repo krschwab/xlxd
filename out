@@ -1,0 +1,923 @@
+execve("/root/go/bin/xlxd", ["/root/go/bin/xlxd"], [/* 22 vars */]) = 0
+brk(0)                                  = 0x1ef1000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159fd000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27976, ...}) = 0
+mmap(NULL, 27976, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f159f6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/liblxc.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\336\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=533960, ...}) = 0
+mmap(NULL, 2629360, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f1555a000
+mprotect(0x7f2f155d9000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f157d9000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7f000) = 0x7f2f157d9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10608, ...}) = 0
+mmap(NULL, 2105624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f15357000
+mprotect(0x7f2f15359000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f15558000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f2f15558000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=142080, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f5000
+mmap(NULL, 2217232, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f15139000
+mprotect(0x7f2f15151000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f15351000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x18000) = 0x7f2f15351000
+mmap(0x7f2f15353000, 13584, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f15353000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14592, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f14f35000
+mprotect(0x7f2f14f38000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f15137000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f2f15137000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\v\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1869392, ...}) = 0
+mmap(NULL, 3972864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f14b6b000
+mprotect(0x7f2f14d2b000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f14f2b000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f2f14f2b000
+mmap(0x7f2f14f31000, 16128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f14f31000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcap.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f4000
+mmap(NULL, 2114160, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f14966000
+mprotect(0x7f2f1496a000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f14b69000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f2f14b69000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libapparmor.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\30\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=52144, ...}) = 0
+mmap(NULL, 2147312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f14759000
+mprotect(0x7f2f14764000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f14964000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7f2f14964000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300[\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=138400, ...}) = 0
+mmap(NULL, 2242448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f14535000
+mprotect(0x7f2f14556000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f14755000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f2f14755000
+mmap(0x7f2f14757000, 6032, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f14757000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libseccomp.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\346\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=252096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f3000
+mmap(NULL, 2347224, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f142f7000
+mprotect(0x7f2f14320000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f14520000, 86016, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x29000) = 0x7f2f14520000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libcgmanager.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300>\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=141120, ...}) = 0
+mmap(NULL, 2236456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f140d4000
+mprotect(0x7f2f140f5000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f142f4000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f2f142f4000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`G\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=100376, ...}) = 0
+mmap(NULL, 2195936, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f13ebb000
+mprotect(0x7f2f13ed3000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f140d2000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f2f140d2000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnih-dbus.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@-\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=38920, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f2000
+mmap(NULL, 2134040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f13cb1000
+mprotect(0x7f2f13cba000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f13eb9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f2f13eb9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdbus-1.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260h\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=293960, ...}) = 0
+mmap(NULL, 2389688, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f13a69000
+mprotect(0x7f2f13aaf000, 2097152, PROT_NONE) = 0
+mmap(0x7f2f13caf000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x46000) = 0x7f2f13caf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpcre.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\26\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=444344, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f1000
+mmap(NULL, 2539880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f137fc000
+mprotect(0x7f2f13868000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f13a67000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6b000) = 0x7f2f13a67000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31680, ...}) = 0
+mmap(NULL, 2128864, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f135f4000
+mprotect(0x7f2f135fb000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f137fa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f2f137fa000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159f0000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159ef000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159ed000
+arch_prctl(ARCH_SET_FS, 0x7f2f159ed840) = 0
+mprotect(0x7f2f14f2b000, 16384, PROT_READ) = 0
+mprotect(0x7f2f15351000, 4096, PROT_READ) = 0
+mprotect(0x7f2f137fa000, 4096, PROT_READ) = 0
+mprotect(0x7f2f13a67000, 4096, PROT_READ) = 0
+mprotect(0x7f2f13caf000, 4096, PROT_READ) = 0
+mprotect(0x7f2f140d2000, 4096, PROT_READ) = 0
+mprotect(0x7f2f13eb9000, 4096, PROT_READ) = 0
+mprotect(0x7f2f142f4000, 8192, PROT_READ) = 0
+mprotect(0x7f2f14520000, 81920, PROT_READ) = 0
+mprotect(0x7f2f15137000, 4096, PROT_READ) = 0
+mprotect(0x7f2f14755000, 4096, PROT_READ) = 0
+mprotect(0x7f2f14964000, 4096, PROT_READ) = 0
+mprotect(0x7f2f14b69000, 4096, PROT_READ) = 0
+mprotect(0x7f2f15558000, 4096, PROT_READ) = 0
+mprotect(0x7f2f157d9000, 8192, PROT_READ) = 0
+mprotect(0x10e2000, 8192, PROT_READ)    = 0
+mprotect(0x7f2f159ff000, 4096, PROT_READ) = 0
+munmap(0x7f2f159f6000, 27976)           = 0
+set_tid_address(0x7f2f159edb10)         = 25367
+set_robust_list(0x7f2f159edb20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f2f1513ebb0, [], SA_RESTORER|SA_SIGINFO, 0x7f2f15149d10}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f2f1513ec40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f2f15149d10}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+statfs("/sys/fs/selinux", 0x7fffa11323f0) = -1 ENOENT (No such file or directory)
+statfs("/selinux", 0x7fffa11323f0)      = -1 ENOENT (No such file or directory)
+brk(0)                                  = 0x1ef1000
+brk(0x1f12000)                          = 0x1f12000
+open("/proc/filesystems", O_RDONLY)     = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159fc000
+read(3, "nodev\tsysfs\nnodev\trootfs\nnodev\tr"..., 1024) = 328
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+munmap(0x7f2f159fc000, 4096)            = 0
+clock_getres(CLOCK_MONOTONIC, {0, 1})   = 0
+getresuid([0], [0], [0])                = 0
+getresgid([0], [0], [0])                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/sys/fs/cgroup/cgmanager/sock"}, 31) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+geteuid()                               = 0
+getsockname(3, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\0", 1, MSG_NOSIGNAL, NULL, 0) = 1
+sendto(3, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=3, events=POLLIN}], 1, 4294967295) = 1 ([{fd=3, revents=POLLIN}])
+read(3, "OK a98a8818ef2c745ad5a2e362566ae"..., 2048) = 37
+poll([{fd=3, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+poll([{fd=3, events=POLLIN}], 1, 4294967295) = 1 ([{fd=3, revents=POLLIN}])
+read(3, "AGREE_UNIX_FD\r\n", 2048)      = 15
+poll([{fd=3, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0018\0\0\0\1\0\0\0h\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 120}, {" \0\0\0org.linuxcontainers.cgmanage"..., 56}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 176
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\1\0\0\0\17\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1v\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 40
+recvmsg(3, 0x7fffa1131fe0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\0\0\0\0\2\0\0\0p\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 128}, {"", 0}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 128
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\225\0\0\0\2\0\0\0\20\0\0\0\5\1u\0\2\0\0\0\10\1g\0\2as\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 181
+recvmsg(3, 0x7fffa1132030, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+close(3)                                = 0
+geteuid()                               = 0
+open("/etc/lxc/lxc.conf", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/sys/fs/cgroup/cgmanager/sock"}, 31) = 0
+fcntl(3, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(3, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+geteuid()                               = 0
+getsockname(3, {sa_family=AF_LOCAL, NULL}, [2]) = 0
+poll([{fd=3, events=POLLOUT}], 1, 0)    = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "\0", 1, MSG_NOSIGNAL, NULL, 0) = 1
+sendto(3, "AUTH EXTERNAL 30\r\n", 18, MSG_NOSIGNAL, NULL, 0) = 18
+poll([{fd=3, events=POLLIN}], 1, 4294967295) = 1 ([{fd=3, revents=POLLIN}])
+read(3, "OK a98a8818ef2c745ad5a2e362566ae"..., 2048) = 37
+poll([{fd=3, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "NEGOTIATE_UNIX_FD\r\n", 19, MSG_NOSIGNAL, NULL, 0) = 19
+poll([{fd=3, events=POLLIN}], 1, 4294967295) = 1 ([{fd=3, revents=POLLIN}])
+read(3, "AGREE_UNIX_FD\r\n", 2048)      = 15
+poll([{fd=3, events=POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendto(3, "BEGIN\r\n", 7, MSG_NOSIGNAL, NULL, 0) = 7
+poll([{fd=3, events=POLLIN|POLLOUT}], 1, 4294967295) = 1 ([{fd=3, revents=POLLOUT}])
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\0018\0\0\0\1\0\0\0h\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 120}, {" \0\0\0org.linuxcontainers.cgmanage"..., 56}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 176
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\10\0\0\0\1\0\0\0\17\0\0\0\5\1u\0\1\0\0\0\10\1g\0\1v\0\0"..., 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 40
+recvmsg(3, 0x7fffa1131fe0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+geteuid()                               = 0
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\2\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\5\0\0\0blkio\0\0\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\2\0\0\0\10\0\0\0\5\1u\0\2\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\34\0\0\0\3\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\v\0\0\0cpu,cpuacct\0\1\0\0\0/\0\0\0\27c\0\0", 28}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 172
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\3\0\0\0\10\0\0\0\5\1u\0\3\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\4\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\6\0\0\0cpuset\0\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\4\0\0\0\10\0\0\0\5\1u\0\4\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\5\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\7\0\0\0devices\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\5\0\0\0\10\0\0\0\5\1u\0\5\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\6\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\7\0\0\0freezer\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\6\0\0\0\10\0\0\0\5\1u\0\6\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\7\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\7\0\0\0hugetlb\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\7\0\0\0\10\0\0\0\5\1u\0\7\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\30\0\0\0\10\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\6\0\0\0memory\0\0\1\0\0\0/\0\0\0\27c\0\0", 24}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 168
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\10\0\0\0\10\0\0\0\5\1u\0\10\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1$\0\0\0\t\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\20\0\0\0net_cls,net_prio\0\0\0\0\1\0\0\0/\0\0\0"..., 36}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 180
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\t\0\0\0\10\0\0\0\5\1u\0\t\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1\34\0\0\0\n\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\n\0\0\0perf_event\0\0\1\0\0\0/\0\0\0\27c\0\0", 28}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 172
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\n\0\0\0\10\0\0\0\5\1u\0\n\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+sendmsg(3, {msg_name(0)=NULL, msg_iov(2)=[{"l\1\0\1 \0\0\0\v\0\0\0y\0\0\0\1\1o\0\36\0\0\0/org/lin"..., 144}, {"\f\0\0\0name=systemd\0\0\0\0\1\0\0\0/\0\0\0\27c\0\0", 32}], msg_controllen=0, msg_flags=0}, MSG_NOSIGNAL) = 176
+poll([{fd=3, events=POLLIN}], 1, 25000) = 1 ([{fd=3, revents=POLLIN}])
+recvmsg(3, {msg_name(0)=NULL, msg_iov(1)=[{"l\2\1\1\0\0\0\0\v\0\0\0\10\0\0\0\5\1u\0\v\0\0\0", 2048}], msg_controllen=0, msg_flags=MSG_CMSG_CLOEXEC}, MSG_CMSG_CLOEXEC) = 24
+recvmsg(3, 0x7fffa11320a0, MSG_CMSG_CLOEXEC) = -1 EAGAIN (Resource temporarily unavailable)
+close(3)                                = 0
+open("/sys/module/apparmor/parameters/enabled", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=4096, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159fc000
+read(3, "Y\n", 4096)                    = 2
+close(3)                                = 0
+munmap(0x7f2f159fc000, 4096)            = 0
+stat("/sys/kernel/security/apparmor/features/mount/mask", {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+open("/proc/self/cmdline", O_RDONLY)    = 3
+read(3, "/root/go/bin/xlxd\0", 32767)   = 18
+close(3)                                = 0
+sched_getaffinity(0, 8192, {1, 0, 0, 0}) = 32
+mmap(0xc000000000, 65536, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc000000000
+munmap(0xc000000000, 65536)             = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159ad000
+mmap(0xc820000000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc820000000
+mmap(0xc81fff8000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc81fff8000
+mmap(0xc000000000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc000000000
+mmap(NULL, 65536, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1599d000
+mmap(NULL, 1439992, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f1583d000
+sigaltstack({ss_sp=0xc820002000, ss_flags=0, ss_size=32672}, NULL) = 0
+gettid()                                = 25367
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGHUP, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGILL, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGILL, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTRAP, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGABRT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGABRT, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGBUS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGBUS, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGFPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGFPE, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR1, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSEGV, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGUSR2, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPIPE, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGALRM, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGTERM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTERM, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGSTKFLT, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSTKFLT, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGCHLD, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGURG, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGURG, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGXCPU, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXCPU, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGXFSZ, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGXFSZ, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGVTALRM, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGVTALRM, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGPROF, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPROF, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGWINCH, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGWINCH, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGIO, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGIO, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGPWR, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGPWR, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGSYS, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGSYS, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRTMIN, NULL, {0x7f2f1513ebb0, [], SA_RESTORER|SA_SIGINFO, 0x7f2f15149d10}, 8) = 0
+rt_sigaction(SIGRTMIN, NULL, {0x7f2f1513ebb0, [], SA_RESTORER|SA_SIGINFO, 0x7f2f15149d10}, 8) = 0
+rt_sigaction(SIGRTMIN, {0x7f2f1513ebb0, [], SA_RESTORER|SA_STACK|SA_SIGINFO, 0x7f2f15149d10}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, NULL, {0x7f2f1513ec40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f2f15149d10}, 8) = 0
+rt_sigaction(SIGRT_1, NULL, {0x7f2f1513ec40, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f2f15149d10}, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f2f1513ec40, [], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x7f2f15149d10}, NULL, 8) = 0
+rt_sigaction(SIGRT_2, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_2, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_3, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_3, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_4, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_4, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_5, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_5, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_6, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_6, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_7, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_7, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_8, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_8, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_9, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_9, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_10, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_10, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_11, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_11, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_12, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_12, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_13, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_13, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_14, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_14, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_15, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_15, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_16, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_16, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_17, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_17, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_18, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_18, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_19, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_19, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_20, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_20, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_21, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_21, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_22, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_22, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_23, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_23, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_24, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_24, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_25, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_25, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_26, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_26, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_27, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_27, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_28, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_28, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_29, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_29, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_30, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_30, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_31, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_31, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigaction(SIGRT_32, NULL, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGRT_32, {0x5e7b90, ~[], SA_RESTORER|SA_STACK|SA_RESTART|SA_SIGINFO, 0x5e7bb0}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f2f12df3000
+mprotect(0x7f2f12df3000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f2f135f2eb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f2f135f39d0, tls=0x7f2f135f3700, child_tidptr=0x7f2f135f39d0) = 25368
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f12db3000
+rt_sigprocmask(SIG_SETMASK, NULL, [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[RTMIN RT_1], [], 8) = 0
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f2f125b2000
+mprotect(0x7f2f125b2000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f2f12db1eb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f2f12db29d0, tls=0x7f2f12db2700, child_tidptr=0x7f2f12db29d0) = 25369
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+openat(AT_FDCWD, "/proc/sys/net/core/somaxconn", O_RDONLY|O_CLOEXEC) = 3
+read(3, "128\n", 4096)                  = 4
+read(3, "", 4092)                       = 0
+close(3)                                = 0
+socket(PF_INET, SOCK_STREAM, IPPROTO_TCP) = 3
+close(3)                                = 0
+socket(PF_INET6, SOCK_STREAM, IPPROTO_TCP) = 3
+setsockopt(3, SOL_IPV6, IPV6_V6ONLY, [1], 4) = 0
+bind(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = 0
+socket(PF_INET6, SOCK_STREAM, IPPROTO_TCP) = 4
+setsockopt(4, SOL_IPV6, IPV6_V6ONLY, [0], 4) = 0
+bind(4, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "::ffff:127.0.0.1", &sin6_addr), sin6_flowinfo=0, sin6_scope_id=0}, 28) = 0
+close(4)                                = 0
+close(3)                                = 0
+ioctl(1, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0xc820047da4) = -1 ENOTTY (Inappropriate ioctl for device)
+ioctl(2, SNDCTL_TMR_TIMEBASE or SNDRV_TIMER_IOCTL_NEXT_DEVICE or TCGETS, 0xc820047da4) = -1 ENOTTY (Inappropriate ioctl for device)
+capget({0 /* _LINUX_CAPABILITY_VERSION_??? */, 200}, NULL) = 0
+openat(AT_FDCWD, "/proc/sys/kernel/cap_last_cap", O_RDONLY|O_CLOEXEC) = 3
+read(3, "37\n", 11)                     = 3
+close(3)                                = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=3165552, ...}) = 0
+mmap(NULL, 3165552, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f122ad000
+close(3)                                = 0
+stat("/usr/local/sbin/setfacl", 0xc8200706c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/setfacl", 0xc820070750) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/setfacl", 0xc8200707e0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/setfacl", {st_mode=S_IFREG|0755, st_size=36328, ...}) = 0
+stat("/usr/local/sbin/rsync", 0xc820070900) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/rsync", 0xc820070990) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/rsync", 0xc820070a20)   = -1 ENOENT (No such file or directory)
+stat("/usr/bin/rsync", {st_mode=S_IFREG|0755, st_size=499992, ...}) = 0
+stat("/usr/local/sbin/tar", 0xc820070b40) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/tar", 0xc820070bd0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/tar", 0xc820070c60)     = -1 ENOENT (No such file or directory)
+stat("/usr/bin/tar", 0xc820070cf0)      = -1 ENOENT (No such file or directory)
+stat("/sbin/tar", 0xc820070d80)         = -1 ENOENT (No such file or directory)
+stat("/bin/tar", {st_mode=S_IFREG|0755, st_size=353840, ...}) = 0
+stat("/usr/local/sbin/xz", 0xc820070ea0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/xz", 0xc820070f30) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/xz", 0xc820070fc0)      = -1 ENOENT (No such file or directory)
+stat("/usr/bin/xz", {st_mode=S_IFREG|0755, st_size=68648, ...}) = 0
+readlinkat(AT_FDCWD, "/proc/self/exe", "/root/go/bin/xlxd", 128) = 17
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY) = 3
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 4096) = 127
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/self/uid_map", O_RDONLY|O_CLOEXEC) = 3
+read(3, "         0          0 4294967295"..., 4096) = 33
+close(3)                                = 0
+lstat("/sys/kernel/security/apparmor", {st_mode=S_IFDIR|0755, st_size=0, ...}) = 0
+stat("/usr/local/sbin/apparmor_parser", 0xc820071200) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/apparmor_parser", 0xc820071290) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/apparmor_parser", 0xc820071320) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/apparmor_parser", 0xc8200713b0) = -1 ENOENT (No such file or directory)
+stat("/sbin/apparmor_parser", {st_mode=S_IFREG|0755, st_size=939288, ...}) = 0
+capget({_LINUX_CAPABILITY_VERSION_3, 0}, {CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP, CAP_CHOWN|CAP_DAC_OVERRIDE|CAP_DAC_READ_SEARCH|CAP_FOWNER|CAP_FSETID|CAP_KILL|CAP_SETGID|CAP_SETUID|CAP_SETPCAP|CAP_LINUX_IMMUTABLE|CAP_NET_BIND_SERVICE|CAP_NET_BROADCAST|CAP_NET_ADMIN|CAP_NET_RAW|CAP_IPC_LOCK|CAP_IPC_OWNER|CAP_SYS_MODULE|CAP_SYS_RAWIO|CAP_SYS_CHROOT|CAP_SYS_PTRACE|CAP_SYS_PACCT|CAP_SYS_ADMIN|CAP_SYS_BOOT|CAP_SYS_NICE|CAP_SYS_RESOURCE|CAP_SYS_TIME|CAP_SYS_TTY_CONFIG|CAP_MKNOD|CAP_LEASE|CAP_AUDIT_WRITE|CAP_AUDIT_CONTROL|CAP_SETFCAP, 0}) = 0
+openat(AT_FDCWD, "/proc/self/status", O_RDONLY|O_CLOEXEC) = 3
+read(3, "Name:\txlxd\nState:\tR (running)\nTg"..., 4096) = 780
+close(3)                                = 0
+openat(AT_FDCWD, "/proc/self/attr/current", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0666, st_size=0, ...}) = 0
+read(3, "unconfined\n", 512)            = 11
+read(3, "", 1525)                       = 0
+close(3)                                = 0
+lstat("/sys/fs/cgroup/cpu/", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/sys/fs/cgroup/cpuset/", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/sys/fs/cgroup/memory/", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+lstat("/sys/fs/cgroup/memory/memory.memsw.limit_in_bytes", 0xc820071710) = -1 ENOENT (No such file or directory)
+write(2, "t=2015-12-27T16:38:19+0000 lvl=w"..., 114t=2015-12-27T16:38:19+0000 lvl=warn msg="CGroup memory swap accounting is disabled, swap limits will be ignored."
+) = 114
+uname({sys="Linux", node="vultr.guest.localdomain", ...}) = 0
+stat("/var/lib/xlxd/containers", {st_mode=S_IFDIR|0711, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/devices", {st_mode=S_IFDIR|0711, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/devlxd", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/images", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/security", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/shmounts", {st_mode=S_IFDIR|0711, st_size=4096, ...}) = 0
+stat("/var/lib/xlxd/snapshots", {st_mode=S_IFDIR|0700, st_size=4096, ...}) = 0
+statfs("/var/lib/xlxd/containers", {f_type="EXT2_SUPER_MAGIC", f_bsize=4096, f_blocks=3863354, f_bfree=1941189, f_bavail=1744602, f_files=960000, f_ffree=544755, f_fsid={681043421, 746621192}, f_namelen=255, f_frsize=4096}) = 0
+getuid()                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=475, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f2f159fc000
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 475
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7f2f159fc000, 4096)            = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27976, ...}) = 0
+mmap(NULL, 27976, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f159f6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@\23\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0
+mmap(NULL, 2131104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f118a3000
+mprotect(0x7f2f118ab000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f11aaa000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f2f11aaa000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360@\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=97224, ...}) = 0
+mmap(NULL, 2202584, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f11689000
+mprotect(0x7f2f116a0000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f1189f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7f2f1189f000
+mmap(0x7f2f118a1000, 7128, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f2f118a1000
+close(3)                                = 0
+mprotect(0x7f2f1189f000, 4096, PROT_READ) = 0
+mprotect(0x7f2f11aaa000, 4096, PROT_READ) = 0
+munmap(0x7f2f159f6000, 27976)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=27976, ...}) = 0
+mmap(NULL, 27976, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f2f159f6000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47616, ...}) = 0
+mmap(NULL, 2143656, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f1147d000
+mprotect(0x7f2f11488000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f11687000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f2f11687000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=51736, ...}) = 0
+mmap(NULL, 2148488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f2f11270000
+mprotect(0x7f2f1127c000, 2093056, PROT_NONE) = 0
+mmap(0x7f2f1147b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xb000) = 0x7f2f1147b000
+close(3)                                = 0
+mprotect(0x7f2f1147b000, 4096, PROT_READ) = 0
+mprotect(0x7f2f11687000, 4096, PROT_READ) = 0
+munmap(0x7f2f159f6000, 27976)           = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1713, ...}) = 0
+mmap(NULL, 1713, PROT_READ, MAP_SHARED, 3, 0) = 0x7f2f159fc000
+lseek(3, 1713, SEEK_SET)                = 1713
+munmap(0x7f2f159fc000, 1713)            = 0
+close(3)                                = 0
+futex(0x11e1540, FUTEX_WAKE, 1)         = 1
+futex(0x11e1480, FUTEX_WAKE, 1)         = 1
+stat("/usr/local/sbin/newuidmap", 0xc820071c20) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/newuidmap", 0xc820071cb0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/newuidmap", 0xc820071d40) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/newuidmap", 0xc820071dd0) = -1 ENOENT (No such file or directory)
+stat("/sbin/newuidmap", 0xc820071e60)   = -1 ENOENT (No such file or directory)
+stat("/bin/newuidmap", 0xc820071ef0)    = -1 ENOENT (No such file or directory)
+stat("/usr/games/newuidmap", 0xc8200c8000) = -1 ENOENT (No such file or directory)
+stat("/usr/local/games/newuidmap", 0xc8200c8090) = -1 ENOENT (No such file or directory)
+stat("/usr/local/sbin/newgidmap", 0xc8200c8120) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/newgidmap", 0xc8200c81b0) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/newgidmap", 0xc8200c8240) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/newgidmap", 0xc8200c82d0) = -1 ENOENT (No such file or directory)
+stat("/sbin/newgidmap", 0xc8200c8360)   = -1 ENOENT (No such file or directory)
+stat("/bin/newgidmap", 0xc8200c83f0)    = -1 ENOENT (No such file or directory)
+stat("/usr/games/newgidmap", 0xc8200c8480) = -1 ENOENT (No such file or directory)
+stat("/usr/local/games/newgidmap", 0xc8200c8510) = -1 ENOENT (No such file or directory)
+stat("/var/lib/xlxd/lxd.db", {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+open("/var/lib/xlxd/lxd.db", O_RDWR|O_CREAT|O_CLOEXEC, 0644) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+stat("/var/lib/xlxd/lxd.db", {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\21\0\0\0&"..., 100) = 100
+futex(0x11e1540, FUTEX_WAKE, 1)         = 1
+futex(0x11e1480, FUTEX_WAKE, 1)         = 1
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "SQLite format 3\0\4\0\1\1\0@  \0\0\0\21\0\0\0&"..., 1024) = 1024
+lseek(3, 8192, SEEK_SET)                = 8192
+read(3, "\r\0\0\0\6\0\204\0\0\204\1\226\1\317\2!\2\307\2\364\3\313\0K\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(3, 11264, SEEK_SET)               = 11264
+read(3, "\r\0\0\0\5\0\237\0\0\237\0\324\2\31\2\\\3\273\0H\0H\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(3, 16384, SEEK_SET)               = 16384
+read(3, "\r\0\0\0\4\0005\0\0005\1\257\2\2\3\271\0001\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(3, 21504, SEEK_SET)               = 21504
+read(3, "\r\0\0\0\4\0\231\0\0\231\2d\2\221\3\303\1\200\3\317\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(3, 25600, SEEK_SET)               = 25600
+read(3, "\r\0\0\0\4\0\277\0\0\277\1\363\2\221\2\302\3|\3\277\3\277\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+lseek(3, 32768, SEEK_SET)               = 32768
+read(3, "\r\0\0\0\4\0\303\0\0\303\1\2\2S\2\224\1\334\0C\0C\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+brk(0x1f33000)                          = 0x1f33000
+brk(0x1f32000)                          = 0x1f32000
+lseek(3, 37888, SEEK_SET)               = 37888
+read(3, "\r\0\0\0\3\2\311\0\2\311\3\30\3\323\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+futex(0x11e1540, FUTEX_WAKE, 1)         = 1
+futex(0x11e1480, FUTEX_WAKE, 1)         = 1
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 36864, SEEK_SET)               = 36864
+read(3, "\n\0\0\0\1\3\373\0\3\373\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+futex(0x11e1540, FUTEX_WAKE, 1)         = 1
+futex(0x11e1480, FUTEX_WAKE, 1)         = 1
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 27648, SEEK_SET)               = 27648
+read(3, "\n\0\0\0\1\3\365\0\3\365\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+unlinkat(AT_FDCWD, "/var/lib/xlxd/devlxd/sock", 0) = -1 ENOENT (No such file or directory)
+unlinkat(AT_FDCWD, "/var/lib/xlxd/devlxd/sock", AT_REMOVEDIR) = -1 ENOENT (No such file or directory)
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+setsockopt(4, SOL_SOCKET, SO_BROADCAST, [1], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+bind(4, {sa_family=AF_LOCAL, sun_path="/var/lib/xlxd/devlxd/sock"}, 28) = 0
+listen(4, 128)                          = 0
+epoll_create1(EPOLL_CLOEXEC)            = 5
+epoll_ctl(5, EPOLL_CTL_ADD, 4, {EPOLLIN|EPOLLOUT|EPOLLRDHUP|EPOLLET, {u32=316378928, u64=139840156569392}}) = 0
+getsockname(4, {sa_family=AF_LOCAL, sun_path="/var/lib/xlxd/devlxd/sock"}, [28]) = 0
+fchmodat(AT_FDCWD, "/var/lib/xlxd/devlxd/sock", 0666) = 0
+openat(AT_FDCWD, "/proc/self/mountinfo", O_RDONLY|O_CLOEXEC) = 6
+readlinkat(AT_FDCWD, "/var/lib/xlxd/shmounts", 0xc820080a00, 128) = -1 EINVAL (Invalid argument)
+read(6, "17 22 0:16 / /sys rw,nosuid,node"..., 4096) = 3058
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+mount("/var/lib/xlxd/shmounts", "/var/lib/xlxd/shmounts", 0xc8200b5490, MS_BIND, NULL) = 0
+mount("/var/lib/xlxd/shmounts", "/var/lib/xlxd/shmounts", "none", MS_REC|MS_SHARED, NULL) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(3, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 24, SEEK_SET)                  = 24
+read(3, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(3, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(3, 4096, SEEK_SET)                = 4096
+read(3, "\r\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(3, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+futex(0x11e1540, FUTEX_WAKE, 1)         = 1
+futex(0x11e1480, FUTEX_WAKE, 1)         = 1
+lstat("/var/lib/xlxd/server.crt", {st_mode=S_IFREG|0644, st_size=2037, ...}) = 0
+lstat("/var/lib/xlxd/server.key", {st_mode=S_IFREG|0600, st_size=3243, ...}) = 0
+fcntl(6, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+fcntl(6, F_SETLK, {type=F_RDLCK, whence=SEEK_SET, start=1073741826, len=510}) = 0
+fcntl(6, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=1073741824, len=1}) = 0
+access("/var/lib/xlxd/lxd.db-journal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(6, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(6, 24, SEEK_SET)                  = 24
+read(6, "\0\0\0\21\0\0\0&\0\0\0\0\0\0\0\0", 16) = 16
+fstat(6, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+access("/var/lib/xlxd/lxd.db-wal", F_OK) = -1 ENOENT (No such file or directory)
+fstat(6, {st_mode=S_IFREG|0644, st_size=38912, ...}) = 0
+lseek(6, 1024, SEEK_SET)                = 1024
+read(6, "\r\0\0\0\0\4\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 1024) = 1024
+fcntl(6, F_SETLK, {type=F_UNLCK, whence=SEEK_SET, start=0, len=0}) = 0
+futex(0x11e2090, FUTEX_WAIT, 0, NULL)   = 0
+openat(AT_FDCWD, "/var/lib/xlxd/server.crt", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0644, st_size=2037, ...}) = 0
+read(8, "-----BEGIN CERTIFICATE-----\nMIIF"..., 2549) = 2037
+read(8, "", 512)                        = 0
+close(8)                                = 0
+openat(AT_FDCWD, "/var/lib/xlxd/server.key", O_RDONLY|O_CLOEXEC) = 8
+fstat(8, {st_mode=S_IFREG|0600, st_size=3243, ...}) = 0
+read(8, "-----BEGIN RSA PRIVATE KEY-----\n"..., 3755) = 3243
+read(8, "", 512)                        = 0
+close(8)                                = 0
+mmap(0xc820100000, 1048576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc820100000
+mmap(0xc81fff0000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xc81fff0000
+lstat("/var/lib/xlxd/unix.socket", 0xc82016db90) = -1 ENOENT (No such file or directory)
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 8
+setsockopt(8, SOL_SOCKET, SO_BROADCAST, [1], 4) = 0
+setsockopt(8, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+bind(8, {sa_family=AF_LOCAL, sun_path="/var/lib/xlxd/unix.socket"}, 28) = 0
+listen(8, 128)                          = 0
+epoll_ctl(5, EPOLL_CTL_ADD, 8, {EPOLLIN|EPOLLOUT|EPOLLRDHUP|EPOLLET, {u32=316378736, u64=139840156569200}}) = 0
+getsockname(8, {sa_family=AF_LOCAL, sun_path="/var/lib/xlxd/unix.socket"}, [28]) = 0
+fchmodat(AT_FDCWD, "/var/lib/xlxd/unix.socket", 0660) = 0
+getgid()                                = 0
+getuid()                                = 0
+fchownat(AT_FDCWD, "/var/lib/xlxd/unix.socket", 0, 0, 0) = 0
+rt_sigprocmask(SIG_SETMASK, ~[ILL TRAP BUS FPE SEGV STKFLT CHLD PROF], NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, ~[INT ILL TRAP BUS FPE SEGV STKFLT CHLD PROF], NULL, 8) = 0
+futex(0xc8200a1310, FUTEX_WAKE, 1)      = 1
+futex(0x11e2090, FUTEX_WAIT, 0, NULL)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[INT QUIT ILL TRAP BUS FPE SEGV STKFLT CHLD PROF], NULL, 8) = 0
+futex(0xc8200a1310, FUTEX_WAKE, 1)      = 1
+futex(0x11e2090, FUTEX_WAIT, 0, NULL)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[INT QUIT ILL TRAP BUS FPE SEGV TERM STKFLT CHLD PROF], NULL, 8) = 0
+futex(0xc8200a1310, FUTEX_WAKE, 1)      = 1
+futex(0x11e2090, FUTEX_WAIT, 0, NULL)   = 0
+futex(0xc8200a1310, FUTEX_WAKE, 1)      = 1
+futex(0x11e2090, FUTEX_WAIT, 0, NULL)   = 0
+rt_sigprocmask(SIG_SETMASK, ~[INT QUIT ILL TRAP BUS FPE SEGV TERM STKFLT CHLD PROF PWR], NULL, 8) = 0
+futex(0xc8200a1310, FUTEX_WAKE, 1)      = 1
+futex(0x11e2090, FUTEX_WAIT, 0, NULLProcess 25367 detached
+ <detached ...>
