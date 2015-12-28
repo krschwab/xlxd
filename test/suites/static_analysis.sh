@@ -9,9 +9,6 @@ test_static_analysis() {
     set -e
 
     cd ../
-    # Python3 static analysis
-    pep8 scripts/lxd-images scripts/lxd-setup-lvm-storage
-    pyflakes3 scripts/lxd-images scripts/lxd-setup-lvm-storage
 
     # Shell static analysis
     shellcheck lxd-bridge/lxd-bridge test/main.sh test/suites/* test/backends/*

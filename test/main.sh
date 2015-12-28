@@ -141,8 +141,6 @@ ensure_import_testimage() {
   if ! lxc image alias list | grep -q "^| testimage\s*|.*$"; then
     if [ -e "${LXD_TEST_IMAGE:-}" ]; then
       lxc image import "${LXD_TEST_IMAGE}" --alias testimage
-    else
-      ../scripts/lxd-images import busybox --alias testimage
     fi
   fi
 }
