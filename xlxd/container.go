@@ -148,6 +148,20 @@ func containerValidDeviceConfigKey(t, k string) bool {
 			return true
 		case "nictype":
 			return true
+		case "flags":
+			return true
+		case "ipv4":
+			return true
+		case "ipv4.gateway":
+			return true
+		case "ipv6":
+			return true
+		case "ipv6.gateway":
+			return true
+		case "script.up":
+			return true
+		case "script.down":
+			return true
 		default:
 			return false
 		}

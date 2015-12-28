@@ -215,7 +215,7 @@ func (c *containerLXC) initLXC() error {
 	templateConfBase := "ubuntu"
 	templateConfDir := os.Getenv("LXD_LXC_TEMPLATE_CONFIG")
 	if templateConfDir == "" {
-		templateConfDir = "/usr/share/lxc/config"
+		templateConfDir = "/usr/share/xlxc/config"
 	}
 
 	err = lxcSetConfigItem(cc, "lxc.include", fmt.Sprintf("%s/%s.common.conf", templateConfDir, templateConfBase))
@@ -538,6 +538,63 @@ func (c *containerLXC) initLXC() error {
 					return err
 				}
 			}
+
+			// Flags
+			if m["flags"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.flags", m["flags"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// IPV4
+			if m["ipv4"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.ipv4", m["ipv4"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// IPV4.GATEWAY
+			if m["ipv4.gateway"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.ipv4.gateway", m["ipv4.gateway"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// IPV6
+			if m["ipv6"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.ipv6", m["ipv6"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// IPV6.GATEWAY
+			if m["ipv6.gateway"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.ipv6.gateway", m["ipv6.gateway"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// SCRIPT.UP
+			if m["script.up"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.script.up", m["script.up"])
+				if err != nil {
+					return err
+				}
+			}
+
+			// SCRIPT.DOWN
+			if m["script.down"] != "" {
+				err = lxcSetConfigItem(cc, "lxc.network.script.down", m["script.down"])
+				if err != nil {
+					return err
+				}
+			}
+
 		} else if m["type"] == "disk" {
 			// Prepare all the paths
 			srcPath := m["source"]
@@ -875,7 +932,8 @@ func (c *containerLXC) Start() error {
 
 	if err != nil {
 		return fmt.Errorf(
-			"Error calling 'lxd forkstart %s %s %s': err='%v'",
+			"Error calling '%s forkstart %s %s %s': err='%v'",
+			c.daemon.execPath,
 			c.name,
 			c.daemon.lxcpath,
 			filepath.Join(c.LogPath(), "lxc.conf"),
