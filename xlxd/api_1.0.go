@@ -5,10 +5,11 @@ import (
 	"net/http"
 	"os"
 	"syscall"
-
+	"strconv"
 	"gopkg.in/lxc/go-lxc.v2"
 
 	"github.com/krschwab/xlxd/shared"
+         linuxproc "github.com/c9s/goprocinfo/linux"
 )
 
 var api10 = []Command{
@@ -88,6 +89,18 @@ func api10Get(d *Daemon, r *http.Request) Response {
 			return InternalError(err)
 		}
 
+		cpuinfo, err := linuxproc.ReadCPUInfo("/proc/cpuinfo")
+	        if err != nil {
+			return InternalError(err)
+		}
+
+		meminfo, err := linuxproc.ReadMemInfo("/proc/meminfo")
+	        if err != nil {
+			return InternalError(err)
+		}
+		
+               
+                
 		env := shared.Jmap{
 			"addresses":           addresses,
 			"architectures":       d.architectures,
@@ -100,7 +113,10 @@ func api10Get(d *Daemon, r *http.Request) Response {
 			"storage_version":     d.Storage.GetStorageTypeVersion(),
 			"server":              "lxd",
 			"server_pid":          os.Getpid(),
-			"server_version":      shared.Version}
+			"server_version":      shared.Version,
+                        "processors":          strconv.Itoa(int(cpuinfo.NumPhysicalCPU())),
+                        "cores":               strconv.Itoa(int(cpuinfo.NumCore())),
+                        "memory":              strconv.Itoa(int(meminfo.MemTotal))}
 
 		body["environment"] = env
 

@@ -13,6 +13,9 @@ type ServerStateEnvironment struct {
 	ServerVersion      string   `json:"server_version"`
 	Storage            string   `json:"storage"`
 	StorageVersion     string   `json:"storage_version"`
+	Processors         string   `json:"processors"`
+	Cores              string   `json:"cores"`
+	Memory              string  `json:"memory"`
 }
 
 type ServerState struct {
